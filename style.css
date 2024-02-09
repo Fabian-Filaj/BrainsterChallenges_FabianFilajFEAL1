@@ -1,0 +1,98 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* First Page Section */
+.firstpage {
+    background-image:
+        linear-gradient(to bottom,
+            rgb(0, 0, 0, 0.5),
+            rgb(0, 0, 0, 0.7)), url('./img/img1.jpg');
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.inner-content {
+    padding-top: 3rem;
+    top: 0;
+    left: 0;
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    position: relative;
+}
+
+.inner-content p {
+    padding-left: 1.5rem;
+    color: rgb(255, 255, 255, 0.7);
+    text-align: center;
+    cursor: pointer;
+}
+
+.inner-content ul {
+    padding-right: 1.5rem;
+    list-style-type: none;
+    display: flex;
+    gap: 30px;
+}
+
+.inner-content ul li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255, 0.6);
+}
+
+.inner-content ul li a:hover {
+    color: white;
+}
+
+
+.welcome {
+    text-align: center;
+    position: absolute;
+    top: 36.5%;
+    left: 35%;
+    color: white;
+    width: 30%;
+    align-items: center;
+}
+
+.welcome h1 {
+    font-size: 25px;
+    font-weight: lighter;
+    padding: 20px;
+}
+
+.welcome hr {
+    border: 1.5px solid white;
+    width: 15rem;
+    position: absolute;
+    left: 26%;
+    align-items: center;
+}
+
+.welcome p {
+    margin-top: 12%;
+    color: rgb(255, 255, 255, 0.7);
+    line-height: 1.6;
+}
+
+.welcome button {
+    background-color: transparent;
+    color: rgb(255, 255, 255, 0.7);
+    font-size: 20px;
+    padding: 20px 30px;
+    border: 1.5px solid rgb(255, 255, 255, 0.7);
+    border-radius: 5px;
+    margin-top: 6%;
+    cursor: pointer;
+}
+
+.welcome button:hover {
+    color: white;
+}
