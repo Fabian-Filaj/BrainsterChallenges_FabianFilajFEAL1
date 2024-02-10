@@ -15,7 +15,7 @@
     margin: 3rem auto 5rem;
 }
 
-@media screen and (max-width:500px) {
+@media screen and (max-width:425px) {
     .second-section {
         height: 60vh;
         display: block;
@@ -28,7 +28,7 @@
     text-align: center;
 }
 
-@media screen and (max-width:500px) {
+@media screen and (max-width:425px) {
     .second-section .inform {
         width: 100%;
     }
@@ -41,7 +41,7 @@
     margin-left: 15%;
 }
 
-@media screen and (max-width:500px) {
+@media screen and (max-width:425px) {
     .second-section img {
         width: 11rem;
         height: 11rem;
@@ -58,7 +58,7 @@
 
 }
 
-@media screen and (max-width:500px) {
+@media screen and (max-width:425px) {
     .second-section p {
         text-align: center;
         align-items: center;
