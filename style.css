@@ -48,14 +48,16 @@
     color: white;
 }
 
-.inner-content a.icon{
+.inner-content a.icon {
     display: none;
 }
-@media screen and (max-width:425px){
-    .inner-content a.icon{
+
+@media screen and (max-width:425px) {
+    .inner-content a.icon {
         display: block;
     }
-    .inner-content a{
+
+    .inner-content a {
         display: none;
     }
 }
@@ -63,19 +65,21 @@
 
 .welcome {
     text-align: center;
-    margin: 15rem auto ;
+    margin: 15rem auto;
     margin-bottom: 1rem;
     color: white;
     width: 30%;
     align-items: center;
 }
-@media screen and (max-width:425px){
+
+@media screen and (max-width:425px) {
     .welcome {
         width: 80%;
         margin: 7rem auto;
     }
 
 }
+
 .welcome h1 {
     font-size: 25px;
     font-weight: lighter;
@@ -88,10 +92,11 @@
     align-items: center;
     margin: 0 auto;
 }
-@media screen and (max-width:425px){
+
+@media screen and (max-width:425px) {
     .welcome hr {
-    align-items: center;
-    margin: 0 auto;
+        align-items: center;
+        margin: 0 auto;
     }
 }
 
@@ -112,7 +117,7 @@
     cursor: pointer;
 }
 
-@media screen and (max-width:425px){
+@media screen and (max-width:425px) {
     .welcome button {
         width: 80%;
     }
@@ -132,7 +137,7 @@
 
 @media screen and (max-width:425px) {
     .second-section {
-        height: 60vh;
+        height: 65vh;
         display: block;
         width: 80%
     }
@@ -249,15 +254,14 @@
 /* subscribe section */
 
 .subscribe {
-    height: 30vh;
+    height: 25vh;
     text-align: center;
     margin-top: 5rem;
-    padding-bottom: 5rem;
 }
 
 @media screen and (max-width:425px) {
     .subscribe {
-        height: 40vh;
+        height: 30vh;
     }
 }
 
@@ -297,4 +301,23 @@
 
 .subscribe button:hover {
     background-color: #0056b3;
+}
+
+/* Footer */
+
+footer {
+    background-color: #302d2d;
+    color: white;
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+}
+
+footer p {
+    margin-bottom: 1rem;
+}
+
+footer i {
+    margin-right: 1rem;
+    cursor: pointer;
 }
